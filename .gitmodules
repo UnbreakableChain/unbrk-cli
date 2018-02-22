@@ -1,0 +1,9 @@
+[submodule "libs/libunbrkstats"]
+	path = libs/libunbrkstats
+	url = https://github.com/UnbreakableChain/libunbrkstats.git
+[submodule "libs/libunbrkfio"]
+	path = libs/libunbrkfio
+	url = https://github.com/UnbreakableChain/libunbrkfio.git
+[submodule "libs/libunbrkcore"]
+	path = libs/libunbrkcore
+	url = https://github.com/UnbreakableChain/libunbrkcore.git

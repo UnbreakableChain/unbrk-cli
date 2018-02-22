@@ -1,0 +1,26 @@
+Usage: unbrk
+Tracks your progress doing certain task following the don't break the chain method.
+
+Usage: unbrk check CHAIN... [OPTION]...
+Adds or modifies a link in the chain.
+  -h, --hardness=NUM		The hardness of the link. The default is 1.
+  -g, --ghost			Sets the link as a ghost link.
+  -d, --date=DATE		The date of the link. The defult is today.
+
+Usage: unbrk see CHAIN... [OPTION]...
+Shows the chain
+  -s, --since=DATE		The first date shown. Default today - 7.
+  -t, --to=DATE			The last date. Default today.
+  -i, --input			Activates the standard input reading in order to read
+  				a chain.
+
+Usage: unbrk stats CHAIN... [OPTION]...
+Prints statisticals of the chain
+
+Usage: unbrk merge CHAIN...
+Merges the given chains
+
+Usage: unbrk new CHAIN...
+Creates a new chain file into the chains directory
+  -i, --input			Activates the standard input reading in order to read
+  				a chain.
